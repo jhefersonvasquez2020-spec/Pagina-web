@@ -6,19 +6,15 @@ editor: visual
 ---
 
 # Diseños experimentales
+
 ```{r}
 library(agricolae)
 
 ```
 
 ## DCA
-Factor - dosis de fertilización nitrogenada (kg/ha)
-0 - testigo
-50
-100
-diseño : DCA
-Repeticiones : 5
-UE - 3 dosis x 5 rep = 15
+
+Factor - dosis de fertilización nitrogenada (kg/ha) 0 - testigo 50 100 diseño : DCA Repeticiones : 5 UE - 3 dosis x 5 rep = 15
 
 ```{r}
 # Diseño Completamente al Azar (DCA)
@@ -40,13 +36,8 @@ View(diseño_dca$book)
 ```
 
 ## DBCA
-Factor 1 - dosis de fertilización nitrogenada (kg/ha)
-factor 2 - cultivares de papa
-peruanita
-canchan
-diseño : DBCA
-Repeticiones : 4
-UE - 3 dosis x 2 cultivares x 4 rep = 24
+
+Factor 1 - dosis de fertilización nitrogenada (kg/ha) factor 2 - cultivares de papa peruanita canchan diseño : DBCA Repeticiones : 4 UE - 3 dosis x 2 cultivares x 4 rep = 24
 
 ```{r}
 trt<- c(3,2) # factorial 3x2
@@ -55,4 +46,3 @@ book <- outdesing$book
 book
 
 ```
-

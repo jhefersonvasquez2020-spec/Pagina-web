@@ -1,0 +1,12 @@
+---
+title: "Diseños"
+author: "Jheferson Vasquez Guevara"
+format: html
+editor: visual
+---
+
+# #diseños experimentales 
+
+```{r}
+
+```
