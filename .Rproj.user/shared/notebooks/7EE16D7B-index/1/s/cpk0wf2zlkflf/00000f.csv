@@ -1,0 +1,4 @@
+"0","trt<- c(3,2) # factorial 3x2"
+"0","outdesing <- design.ab(trt, r =3, serie =2)"
+"0","book <- outdesing$book"
+"0","book"
